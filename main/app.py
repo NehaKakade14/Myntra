@@ -167,13 +167,16 @@ from sklearn.metrics.pairwise import cosine_similarity
 import firebase_admin
 from firebase_admin import credentials, firestore
 
+import logging
+logging.basicConfig(level=logging.DEBUG)
+
 # Initialize Flask application
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///swipes.db'
 db = SQLAlchemy(app)
 
 # Initialize Firebase Admin SDK with service account credentials
-cred = credentials.Certificate('C:\Users\nehak\Desktop\FirebaseServiceKey\fashion-rental-ee377-firebase-adminsdk-22yee-bf124bb20a.json')
+cred = credentials.Certificate(r'C:\Users\nehak\Desktop\FirebaseServiceKey\fashion-rental-ee377-firebase-adminsdk-22yee-bf124bb20a.json')
 firebase_admin.initialize_app(cred)
 
 # Access Firestore database
