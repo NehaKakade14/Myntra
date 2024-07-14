@@ -1,0 +1,6 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: latest_version
+  firebase_core: latest_version
+  csv: latest_version
