@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fashion Rental - README</title>
 </head>
 <body>
 
@@ -63,8 +62,13 @@
     <li>Efficient Rentals: Streamlined the rental process, making it easy and efficient for users to rent clothes.</li>
 </ul>
 
-<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/swipe1.jpg" alt="Swiping Interface" width="400"/>
-<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/liked.jpg" alt="Liked Items" width="400"/>
+<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/swipe1.jpg" alt="Swiping Interface" width="200"/>
+<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/liked.jpg" alt="Liked Items" width="200"/>
+<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/likedpage.jpg" alt="Liked Page" width="200"/>
+<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/cartpage.jpg" alt="Cart Items" width="200"/>
+<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/seller.jpg" alt="Seller" width="200"/>
+<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/backend.jpg" alt="Backend" width="200"/>
+<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/firebase.jpg" alt="firebase" width="200"/>
 
 </body>
 </html>
