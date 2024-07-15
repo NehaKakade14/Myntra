@@ -83,8 +83,8 @@
     <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/Seller.jpg" alt="Seller" width="200"/>
 </div>
 
-<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/backend.jpeg" alt="Backend" width="400"/>
-<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/firebase.jpeg" alt="firebase" width="400"/>
+<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/backend.jpeg" alt="Backend" width="700"/>
+<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/firebase.jpeg" alt="firebase" width="700"/>
 
 </body>
 </html>
