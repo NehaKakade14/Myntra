@@ -158,7 +158,6 @@
 
 
 from flask import Flask, request, jsonify
-from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -172,8 +171,6 @@ logging.basicConfig(level=logging.DEBUG)
 
 # Initialize Flask application
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///swipes.db'
-db = SQLAlchemy(app)
 
 # Initialize Firebase Admin SDK with service account credentials
 cred = credentials.Certificate(r'C:\Users\nehak\Desktop\FirebaseServiceKey\fashion-rental-ee377-firebase-adminsdk-22yee-bf124bb20a.json')
@@ -181,14 +178,6 @@ firebase_admin.initialize_app(cred)
 
 # Access Firestore database
 firestore_db = firestore.client()
-
-# Define the Swipe model
-class Swipe(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    user_id = db.Column(db.Integer, nullable=False)
-    product_id = db.Column(db.Integer, nullable=False)
-    swipe_direction = db.Column(db.String(10), nullable=False)
-    timestamp = db.Column(db.DateTime, default=datetime.utcnow)
 
 # Load dataset and prepare the recommendation system
 df = pd.read_csv('DummyMyntraDataset2.csv')  # Replace with your dataset file path
@@ -221,12 +210,9 @@ def get_recommendations(product_index):
     product_indices = [i[0] for i in sim_scores]
     return df.iloc[product_indices]
 
-@app.route('/recommendations', methods=['GET'])
-def recommendations():
-    product_id = int(request.args.get('product_id'))
-    recommendations = get_recommendations(product_id)
-    results = recommendations.to_dict(orient='records')
-    return jsonify(results)
+@app.route('/', methods=['GET'])
+def landing():
+    return "Welcome to the Fashion Rental App!"
 
 @app.route('/swipe', methods=['POST'])
 def swipe():
@@ -235,7 +221,6 @@ def swipe():
     product_id = data['product_id']
     swipe_direction = data['swipe_direction']
 
-    # Save swipe data to Firestore
     swipe_ref = firestore_db.collection('swipes').add({
         'user_id': user_id,
         'product_id': product_id,
@@ -243,9 +228,7 @@ def swipe():
         'timestamp': datetime.utcnow()
     })
 
-    return jsonify({"message": "Swipe data received"}), 200
+    return jsonify({"message": "Swipe data received"})
 
 if __name__ == '__main__':
-    with app.app_context():
-        db.create_all()
     app.run(debug=True)
