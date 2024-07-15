@@ -1,90 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-    <style>
-        .image-row {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .image-row img {
-            flex: 1 1 200px;
-            max-width: 200px;
-            height: auto;
-        }
-    </style>
-<body>
+# Fashion Rental
 
-<h1>Fashion Rental</h1>
+## Team name: InnovateHer
 
-<h2>Team name: InnovateHer</h2>
-
-<h3>Team members</h3>
-<ul>
-    <li>Shruti Juyal - <a href="mailto:shrutijuyal11@gmail.com">shrutijuyal11@gmail.com</a></li>
-    <li>Neha Kakade - <a href="mailto:nehakakade144@gmail.com">nehakakade144@gmail.com</a></li>
-</ul>
+### Team members
+* Shruti Juyal - [shrutijuyal11@gmail.com](mailto:shrutijuyal11@gmail.com)
+* Neha Kakade - [nehakakade144@gmail.com](mailto:nehakakade144@gmail.com)
 
 <!-- TABLE OF CONTENTS -->
-<h2>Table of Contents</h2>
-<ul>
-    <li><a href="#description">Description</a></li>
-    <li><a href="#technology-stack">Technology Stack</a></li>
-    <li><a href="#future-scope">Future Scope</a></li>
-    <li><a href="#result">Result</a></li>
-</ul>
+## Table of Contents
 
-<h2 id="description">Description</h2>
-<p>Fashion Rental is an innovative app that allows users to rent clothes conveniently. The app features a unique swiping UI for product selection. Users can swipe right if they like the product and left if they don't. This user feedback is utilized to power a recommendation system, enhancing the user experience by suggesting popular and frequently rented products.</p>
+* [Description](#description)
+* [Technology Stack](#technology-stack)
+* [Future Scope](#future-scope)
+* [Result](#result)
 
-<h3>Features</h3>
-<ul>
-    <li>Rent Clothes: Browse through a wide variety of clothing items available for rent.</li>
-    <li>Swiping UI: Swipe right to like and left to dislike products.</li>
-    <li>Recommendation System: Get personalized product recommendations based on rental frequency and user likes.</li>
-    <li>Seller Dashboard: Track product status and rental history.</li>
-    <li>Interactive Product Cards: Detailed product information, including descriptions, prices, seller names, available sizes, and customer reviews.</li>
-</ul>
+## Description
+Fashion Rental is an innovative app that allows users to rent clothes conveniently. The app features a unique swiping UI for product selection. Users can swipe right if they like the product and left if they don't. This user feedback is utilized to power a recommendation system, enhancing the user experience by suggesting popular and frequently rented products.
 
-<h2 id="technology-stack">Technology Stack</h2>
-<p>Tools and technologies that you learnt and used in the project.</p>
-<ol>
-    <li>Python</li>
-    <li>Flask</li>
-    <li>Flutter-dart</li>
-    <li>Firebase</li>
-</ol>
+### Features
+* Rent Clothes: Browse through a wide variety of clothing items available for rent.
+* Swiping UI: Swipe right to like and left to dislike products.
+* Recommendation System: Get personalized product recommendations based on rental frequency and user likes.
+* Seller Dashboard: Track product status and rental history.
+* Interactive Product Cards: Detailed product information, including descriptions, prices, seller names, available sizes, and customer reviews.
 
-<h2 id="future-scope">Future Scope</h2>
-<ul>
-    <li>Expanded Product Categories: Adding more categories such as accessories and footwear.</li>
-    <li>Enhanced Recommendation System: Incorporating machine learning algorithms for better recommendations.</li>
-    <li>Web Application: Developing a web version of the app.</li>
-    <li>Advanced Filters: Adding advanced filtering options for easier product discovery.</li>
-    <li>User Reviews and Ratings: Enabling users to leave detailed reviews and ratings for rented products.</li>
-</ul>
+## Technology Stack
+Tools and technologies that you learnt and used in the project.
+1. Python
+2. Flask
+3. Flutter-dart
+4. Firebase
 
-<h2 id="result">Result</h2>
-<ul>
-    <li>User Engagement: Increased user engagement through an intuitive swiping interface.</li>
-    <li>Personalized Experience: Improved user satisfaction with personalized recommendations.</li>
-    <li>Efficient Rentals: Streamlined the rental process, making it easy and efficient for users to rent clothes.</li>
-</ul>
+## Future Scope
+* Expanded Product Categories: Adding more categories such as accessories and footwear.
+* Enhanced Recommendation System: Incorporating machine learning algorithms for better recommendations.
+* Web Application: Developing a web version of the app.
+* Advanced Filters: Adding advanced filtering options for easier product discovery.
+* User Reviews and Ratings: Enabling users to leave detailed reviews and ratings for rented products.
 
-<div class="image-row">
-    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/swipe1.jpg" alt="Swiping Interface" width="200"/>
-    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/liked.jpg" alt="Liked Items" width="200"/>
-    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/likedpage.jpg" alt="Liked Page" width="200"/>
-    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/cartpage.jpg" alt="Cart Items" width="200"/>
-    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/Tracking.jpg" alt="Cart Items" width="200"/>
-    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/Seller.jpg" alt="Seller" width="200"/>
+## Result   
+* User Engagement: Increased user engagement through an intuitive swiping interface.
+* Personalized Experience: Improved user satisfaction with personalized recommendations.
+* Efficient Rentals: Streamlined the rental process, making it easy and efficient for users to rent clothes.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/swipe1.jpg" alt="Swiping Interface" style="max-width: 200px; height: auto;"/>
+    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/liked.jpg" alt="Liked Items" style="max-width: 200px; height: auto;"/>
+    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/likedpage.jpg" alt="Liked Page" style="max-width: 200px; height: auto;"/>
+    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/cartpage.jpg" alt="Cart Items" style="max-width: 200px; height: auto;"/>
+    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/seller.jpg" alt="Seller" style="max-width: 200px; height: auto;"/>
 </div>
 
-<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/backend.jpeg" alt="Backend" width="700"/>
-<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/firebase.jpeg" alt="firebase" width="700"/>
-
-</body>
-</html>
+<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/backend.jpg" alt="Backend" style="max-width: 700px; height: auto;"/>
+<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/firebase.jpg" alt="Firebase" style="max-width: 700px; height: auto;"/>
+<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/firebase2.jpg" alt="Firebase" style="max-width: 700px; height: auto;"/>
