@@ -79,10 +79,12 @@
     <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/liked.jpg" alt="Liked Items" width="200"/>
     <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/likedpage.jpg" alt="Liked Page" width="200"/>
     <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/cartpage.jpg" alt="Cart Items" width="200"/>
+    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/Tracking.jpg" alt="Cart Items" width="200"/>
     <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/Seller.jpg" alt="Seller" width="200"/>
-    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/backend.jpeg" alt="Backend" width="200"/>
-    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/firebase.jpeg" alt="firebase" width="200"/>
 </div>
+
+<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/backend.jpeg" alt="Backend" width="400"/>
+<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/firebase.jpeg" alt="firebase" width="400"/>
 
 </body>
 </html>
