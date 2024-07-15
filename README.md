@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+    <style>
+        .image-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .image-row img {
+            flex: 1 1 200px;
+            max-width: 200px;
+            height: auto;
+        }
+    </style>
 <body>
 
 <h1>Fashion Rental</h1>
@@ -62,13 +74,15 @@
     <li>Efficient Rentals: Streamlined the rental process, making it easy and efficient for users to rent clothes.</li>
 </ul>
 
-<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/swipe1.jpg" alt="Swiping Interface" width="200"/>
-<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/liked.jpg" alt="Liked Items" width="200"/>
-<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/likedpage.jpg" alt="Liked Page" width="200"/>
-<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/cartpage.jpg" alt="Cart Items" width="200"/>
-<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/seller.jpg" alt="Seller" width="200"/>
-<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/backend.jpg" alt="Backend" width="200"/>
-<img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/firebase.jpg" alt="firebase" width="200"/>
+<div class="image-row">
+    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/swipe1.jpg" alt="Swiping Interface" width="200"/>
+    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/liked.jpg" alt="Liked Items" width="200"/>
+    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/likedpage.jpg" alt="Liked Page" width="200"/>
+    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/cartpage.jpg" alt="Cart Items" width="200"/>
+    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/Seller.jpg" alt="Seller" width="200"/>
+    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/backend.jpeg" alt="Backend" width="200"/>
+    <img src="https://github.com/NehaKakade14/Myntra/blob/main/Images/firebase.jpeg" alt="firebase" width="200"/>
+</div>
 
 </body>
 </html>
